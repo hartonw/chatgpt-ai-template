@@ -2,15 +2,16 @@ import { mode } from '@chakra-ui/theme-tools';
 export const globalStyles = {
   colors: {
     brand: {
-      100: '#E9E3FF',
-      200: '#422AFB',
-      300: '#422AFB',
-      400: '#7551FF',
-      500: '#422AFB',
-      600: '#3311DB',
-      700: '#02044A',
-      800: '#190793',
-      900: '#11047A',
+      50: '#ebf8ff',
+      100: '#bee3f8',
+      200: '#90cdf4',
+      300: '#63b3ed',
+      400: '#4299e1',
+      500: '#3182ce',
+      600: '#2b6cb0',
+      700: '#2c5282',
+      800: '#2a4365',
+      900: '#1A365D',
     },
     brandScheme: {
       100: '#E9E3FF',

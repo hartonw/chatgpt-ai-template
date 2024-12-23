@@ -48,28 +48,28 @@ export const buttonStyles = {
         }),
         primary: (props: any) => ({
           bg: mode(
-            'linear-gradient(15.46deg, #4A25E1 26.3%, #7B5AFF 86.4%)',
-            'linear-gradient(15.46deg, #4A25E1 26.3%, #7B5AFF 86.4%)',
+            'linear-gradient(15.46deg, #2b6cb0 26.3%, #63b3ed 86.4%)',
+            'linear-gradient(15.46deg, #2b6cb0 26.3%, #63b3ed 86.4%)',
           )(props),
           color: 'white',
           boxShadow: 'none',
           _focus: {
             bg: mode(
-              'linear-gradient(15.46deg, #4A25E1 26.3%, #7B5AFF 86.4%)',
-              'linear-gradient(15.46deg, #4A25E1 26.3%, #7B5AFF 86.4%)',
+              'linear-gradient(15.46deg, #2b6cb0 26.3%, #63B3ED 86.4%)',
+              'linear-gradient(15.46deg, #2b6cb0 26.3%, #63B3ED 86.4%)',
             )(props),
           },
           _active: {
             bg: mode(
-              'linear-gradient(15.46deg, #4A25E1 26.3%, #7B5AFF 86.4%)',
-              'linear-gradient(15.46deg, #4A25E1 26.3%, #7B5AFF 86.4%)',
+              'linear-gradient(15.46deg, #2b6cb0 26.3%, #63B3ED 86.4%)',
+              'linear-gradient(15.46deg, #2b6cb0 26.3%, #63B3ED 86.4%)',
             )(props),
           },
           _hover: {
             boxShadow: '0px 21px 27px -10px rgba(96, 60, 255, 0.48) !important',
             bg: mode(
-              'linear-gradient(15.46deg, #4A25E1 26.3%, #7B5AFF 86.4%)',
-              'linear-gradient(15.46deg, #4A25E1 26.3%, #7B5AFF 86.4%)',
+              'linear-gradient(15.46deg, #2b6cb0 26.3%, #63B3ED 86.4%)',
+              'linear-gradient(15.46deg, #2b6cb0 26.3%, #63B3ED 86.4%)',
             )(props),
           },
         }),

@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body id={'root'}>
         <AppWrappers>
-          {/* <ChakraProvider theme={theme}> */}
+          <ChakraProvider theme={theme}>
           {pathname?.includes('register') || pathname?.includes('sign-in') ? (
             children
           ) : (
@@ -72,15 +72,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   pt="50px"
                 >
                   {children}
-                  {/* <Component apiKeyApp={apiKey} {...pageProps} /> */}
-                </Box>
-                <Box>
-                  <Footer />
                 </Box>
               </Box>
             </Box>
           )}
-          {/* </ChakraProvider> */}
+          </ChakraProvider>
         </AppWrappers>
       </body>
     </html>

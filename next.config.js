@@ -15,6 +15,15 @@ const nextConfig = {
     // Make ENV
     unoptimized: true,
   },
+  output: 'export',
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: 'http://127.0.0.1:80/api/:path*', // Flask API
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
